@@ -4,17 +4,17 @@ metadata:
   name: mysql
   namespace: testi 
 spec: 
-ports : 
-  - name: mysql
-    protocol: TCP 
-    port: 3306 
-    target Port: 3306
-    nodePort: 31306 
-selector:
-  app: mysql 
-clusterIP: 172.25.163.110 
-type: LoadBalancer 
-externalIPs:
-  - 192.168.132.253 
-sessionAffinity: None 
-externalTrafficPolicy: Cluster
+  ports : 
+    - name: mysql
+      protocol: TCP 
+      port: 3306 
+      target Port: 3306
+      nodePort: 31306 
+  selector:
+    app: mysql 
+  clusterIP: 172.25.163.110 
+  type: LoadBalancer 
+  externalIPs:
+    - 192.168.132.253 
+  sessionAffinity: None 
+  externalTrafficPolicy: Cluster
