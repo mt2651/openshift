@@ -1,0 +1,27 @@
+kind: DeploymentConfig 
+apiVersion: apps.openshift.io/v1 
+metadata:
+  name: mysql
+  namespace: testi 
+spec: 
+  strategy:
+    type: Rolling 
+  replicas: 1 
+  selector:
+    app: mysql 
+  template: 
+    metadata: 
+      Labels:
+        app: mysql 
+    spec: 
+      containers:
+        - name: mysql 
+          image: mysql 
+          ports:
+            - containerPort: 3306
+              protocol: TCP 
+          env: 
+          - name: MYSQL ROOT PASSWORD
+            value: secret123 
+          imagePullPolicy: Always 
+      restartPolicy: Always
