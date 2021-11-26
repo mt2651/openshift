@@ -1,0 +1,2 @@
+# openshift
+Script to beginer
