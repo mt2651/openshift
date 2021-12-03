@@ -1,0 +1,15 @@
+install:
+https://www.redhat.com/sysadmin/learn-openshift-minishift
+
+web:
+https://www.youtube.com/watch?v=vmDtEn_DN2A
+
+dtb:
+https://www.youtube.com/watch?v=iTfNvpkAwAI&t=44s
+https://www.youtube.com/watch?v=k1EhdpT7I0M&t=358s
+
+route:
+https://www.youtube.com/watch?v=EZXkDpt99VI&t=326s
+
+monitor:
+https://www.youtube.com/watch?v=h0OdaZ-j6YI&t=405s
