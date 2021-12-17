@@ -69,6 +69,8 @@ oc get pods
 
 oc exec -t <name> bash
 
+mysql -uroot -psecret123
+
 # or 
 
 oc 
