@@ -21,7 +21,7 @@ groups
 
 ```
 
-#Setup Docker & KVM
+# Docker & KVM
 ```sh
 curl --location \
 https://github.com/docker/machine/releases/download/v0.16.1/docker-machine-Linux-`uname -i` > \
@@ -41,7 +41,7 @@ sudo mv ~/Downloaders/docker-machine-driver-kvm /usr/local/bin/
 ```
 
 
-#Download minishift
+# Download minishift
 ```sh
 export VER="1.34.3"
 curl -L https://github.com/minishift/minishift/releases/download/v$VER/minishift-$VER-linux-amd64.tgz -o minishift-$VER-linux-amd64.tgz
